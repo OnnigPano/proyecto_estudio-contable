@@ -1,0 +1,141 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title></title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link rel="manifest" href="site.webmanifest">
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <link rel="stylesheet" href="css/normalize.css">
+  <link rel="stylesheet" href="css/main.css">
+  <link href="https://fonts.googleapis.com/css?family=Oswald" rel="stylesheet">  
+  <link href="https://fonts.googleapis.com/css?family=PT+Serif" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Great+Vibes" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Caveat" rel="stylesheet"> 
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.4.1/css/all.css" integrity="sha384-5sAR7xN1Nv6T6+dT2mhtzEpVJvfS3NScPQTrOxhwjIuvcA67KV2R5Jz6kr4abQsz" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.4/dist/leaflet.css"
+   integrity="sha512-puBpdR0798OZvTTbP4A8Ix/l+A4dHDD0DGqYW6RQ+9jxkRFclaxxQb/SJAWZfWAkuyeQUytO7+7N4QKrDh+drA=="
+   crossorigin=""/>
+</head>
+
+<body>
+
+    <header>
+            <div class="contenedor-header">
+                
+                <div class="headercolor clearfix">
+                    <div class="perfil">
+                    <p class="logo">GP</p>
+                    </div>
+                    <div class="titulo">
+                    <h1>Estudio Contable Panossian</h1>
+                    </div>
+                </div>
+                <div class="menu-principal">
+                <div class="hamburguesa">
+                    <i class="fas fa-bars"></i>
+                </div>
+                <nav class="barra">
+                    <a href="index.html">Inicio</a>
+                    <a href="#">Nosotros</a>
+                    <a href="#">Servicios</a>
+                    <a href="formulario.html">Contacto</a>
+                </nav>
+                </div>  
+            </div><!--fin contenedor-header--> 
+    </header>
+
+    <main>
+
+        <div class="contenido">
+          <section class="seccion">
+            <h2>Contacto</h2>
+            <div class="contenedor-formulario clearfix">
+                <form autocomplete="off" action="">
+                  <div class="campo">
+                      <label for="nombre">Nombre: </label>
+                      <input type="text" id="nombre" class="nombre" placeholder="Ingrese su nombre completo" required>
+                  </div>
+                  <div class="campo">
+                      <label for="telefono">Teléfono: </label>
+                      <input type="tel" id="telefono" name="telefono" placeholder="Fijo o celular" required>
+                  </div>
+                  <div class="campo">
+                      <label for="email">E-mail: </label>
+                      <input type="email" name="email" id="email" placeholder="email@example.com" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,4}$" title="Ingrese un e-mail válido" required>
+                  </div>    
+                  <div class="campo">
+                      <label for="consulta">Su Consulta:</label>
+                      <textarea name="consulta" id="consulta" cols="30" rows="10" placeholder="Ingrese su consulta en este campo"></textarea>
+                  </div>
+                  <div class="campo button">
+                      <button type="submit">ENVIAR</button>
+                  </div>    
+                </form>
+            </div><!--Fin contenedor-formulario-->
+          </section> 
+        </div><!--Fin contenido-->
+
+
+
+    </main>
+
+    <footer>
+      <div class="contenedor-footer clearfix">
+
+          <div class="datos">
+            <ul>
+              <li><i class="fas fa-user"></i> Garo A. Panossian</li>
+              <li><i class="fas fa-phone"></i>  15-5555-5555</li>
+              <li><i class="fas fa-envelope"></i>  garo@garo.com.ar</li>
+              <li><i class="fas fa-map-marker-alt"></i>  Calle Falsa 123</li>
+            </ul>
+          </div><!--Fin datos-->
+
+          <div class="menu-footer">
+              <nav class="nav-footer">
+                  <a href="index.html">Inicio</a>
+                  <a href="#">Nosotros</a>
+                  <a href="#">Servicios</a>
+                  <a href="formulario.html">Contacto</a>
+              </nav><!--Fin nav-footer-->
+          </div><!--Fin menu-footer-->
+
+      </div><!--Fin contenedor-footer-->
+
+      <div class="copy">
+          <p>&copy Copyright 2018 Onnig Panossian. Todos los derechos reservados.</p>
+      </div><!--Fin copyright-->
+      
+
+    </footer>
+
+
+
+
+  <!-- Add your site or application content here -->
+
+  <script src="js/vendor/modernizr-3.6.0.min.js"></script>
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+  <script>window.jQuery || document.write('<script src="js/vendor/jquery-3.3.1.min.js"><\/script>')</script>
+  <script src="js/plugins.js"></script>
+  <script src="js/main.js"></script>
+  <script src="https://unpkg.com/leaflet@1.3.4/dist/leaflet.js"
+   integrity="sha512-nMMmRyTVoLYqjP9hrbed9S+FzjZHW5gY1TWCHA5ckwXZBadntCNs8kEqAWdrb9O7rxbCaA4lKTIWjDXZxflOcA=="
+   crossorigin=""></script>
+
+  <!-- Google Analytics: change UA-XXXXX-Y to be your site's ID. -->
+  <script>
+    window.ga = function () { ga.q.push(arguments) }; ga.q = []; ga.l = +new Date;
+    ga('create', 'UA-XXXXX-Y', 'auto'); ga('send', 'pageview')
+  </script>
+  <script src="https://www.google-analytics.com/analytics.js" async defer></script>
+</body>
+
+</html>
